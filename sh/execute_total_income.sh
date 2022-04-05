@@ -1,0 +1,1 @@
+curl -X POST http://localhost:8080/engine-rest/decision-definition/key/total_income/evaluate -H 'Content-Type: application/json' -d @total_income.json
