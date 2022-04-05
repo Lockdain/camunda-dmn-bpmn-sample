@@ -1,0 +1,12 @@
+{
+  "variables": {
+    "age": {
+      "value": 35,
+      "type": "Integer"
+    },
+    "salary": {
+      "value": 72000,
+      "type": "Double"
+    }
+  }
+}

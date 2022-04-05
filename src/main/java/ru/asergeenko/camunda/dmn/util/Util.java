@@ -32,6 +32,7 @@ public class Util {
         return decision;
     }
 
+
     public static DmnDecisionTableResult evaluateDecisionTable(DmnEngine dmnEngine, DmnDecision dmnDecision, VariableMap variables) {
         return dmnEngine.evaluateDecisionTable(dmnDecision, variables);
     }
