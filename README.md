@@ -1,9 +1,8 @@
-
-#Camunda DMN/BPMN Demo
+# Camunda DMN/BPMN Demo
 A simple yet illustrative project demonstrating a basic functionality of 
 Camunda BPMN/DMN using Java.
 
-##Build
+## Build
 The build process is straightforward - use `maven build`.
 
 ## Run
