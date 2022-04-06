@@ -17,9 +17,9 @@ import ru.asergeenko.camunda.dmn.util.Util;
 import java.util.ArrayList;
 
 public class DmnTotalIncomeExecutionTest {
-    private static Logger logger = LoggerFactory.getLogger("DmnTotalIncomeExecutionTest");
+    final private static Logger logger = LoggerFactory.getLogger("DmnTotalIncomeExecutionTest");
 
-    public static final String DMN_FILE = "/Users/alexsergeenko/Documents/Work/Alfabank/DMN/camunda-dmn/dmn/ex_1.dmn";
+    public static final String DMN_FILE = "src/main/resources/ex_1.dmn";
     public static final String DECISION_NAME = "total_income";
 
     @Rule
@@ -45,7 +45,7 @@ public class DmnTotalIncomeExecutionTest {
                 .putValue("salary", 50000);
 
         Object singleEntry = getDmnDecisionRuleResults(variables);
-        Assert.assertEquals("c", singleEntry);
+        Assert.assertEquals(43000.8, singleEntry);
 
     }
 

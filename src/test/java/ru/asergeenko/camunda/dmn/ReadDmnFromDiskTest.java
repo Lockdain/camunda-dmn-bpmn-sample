@@ -6,8 +6,8 @@ import ru.asergeenko.camunda.dmn.util.Util;
 
 public class ReadDmnFromDiskTest {
 
-    public static final String DMN_PATH = "/Users/alexsergeenko/Documents/Work/Alfabank/DMN/camunda-dmn/dmn/ex_1.dmn";
-    public static final String DECISION_NAME = "Decision_1jmw56q";
+    public static final String DMN_PATH = "src/main/resources/ex_1.dmn";
+    public static final String DECISION_NAME = "total_income";
 
     @Test
     public void readDmnFromDiskShouldBeOk() {

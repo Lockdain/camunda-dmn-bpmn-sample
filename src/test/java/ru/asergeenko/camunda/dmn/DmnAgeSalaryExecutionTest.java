@@ -15,9 +15,9 @@ import org.slf4j.LoggerFactory;
 import ru.asergeenko.camunda.dmn.util.Util;
 
 public class DmnAgeSalaryExecutionTest {
-    private static Logger logger = LoggerFactory.getLogger("DmnExecutionTest");
+    final private static Logger logger = LoggerFactory.getLogger("DmnExecutionTest");
 
-    public static final String DMN_FILE = "/Users/alexsergeenko/Documents/Work/Alfabank/DMN/camunda-dmn/dmn/ex_1.dmn";
+    public static final String DMN_FILE = "src/main/resources/ex_1.dmn";
     public static final String DECISION_NAME = "age_salary";
 
     @Rule
